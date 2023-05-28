@@ -1,5 +1,6 @@
 import { FiSearch } from 'react-icons/fi';
 import { useState } from 'react';
+import { IMaskInput } from 'react-imask';
 import './styles.css';
 
 import api from './services/api';
@@ -18,7 +19,7 @@ function App() {
       setCep(response.data);
       setInput('');
     } catch (error) {
-      alert('Ops');
+      alert('Ops...Erro ao buscar!');
       setInput('');
     }
   }
@@ -28,7 +29,8 @@ function App() {
       <h1 className="title">Buscador de Cep</h1>
 
       <div className="containerInput">
-        <input
+        <IMaskInput
+          mask="00000-000"
           type="text"
           placeholder="Digite seu cep..."
           value={input}
