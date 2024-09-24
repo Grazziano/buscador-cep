@@ -2,33 +2,70 @@
   <h1>Buscador de CEP</h1>
 </div>
 
+## 📋 Descrição
+
+O **Buscador de CEP** é uma aplicação web construída em React que permite consultar informações detalhadas a partir de um CEP válido. É uma ferramenta prática para obter dados como endereço completo e outras informações associadas ao CEP.
+
+## 🚀 Funcionalidades
+
+- Busca de CEP em tempo real.
+- Exibição de dados como logradouro, complemento, bairro, cidade e estado.
+- Validação de entrada para garantir que o usuário insira um CEP válido.
+- Interface simples e responsiva.
+
+## ✔️ Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
 <div align="center">
-  <img src="./docs/assets/img1.PNG" width="500" heigth="500">
-  <img src="./docs/assets/img2.PNG" width="500" heigth="500">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </div>
 
-Aplicação para consulta de CEP.
+## 🛠️ Instalação e Execução
 
-## ✔️ Técnicas e tecnologias utilizadas
+Siga os passos abaixo para rodar o projeto localmente:
 
-Lista de tecnologias que foram usadas nesse projeto:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/buscador-cep.git
+   ```
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+2. Acesse a pasta do projeto:
+   ```bash
+   cd buscador-cep
+   ```
 
-## 🛠️ Abrir e rodar o projeto
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Para abrir e rodar o projeto, entre na pasta do projeto e execute ```npm install``` para instalar as dependências e ```npm start``` para iniciar o projeto.
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+5. Abra o navegador e acesse:
+   [http://localhost:3000](http://localhost:3000)
 
-### Projeto em produção
-Este projeto pode ser visualizado neste [link](https://buscador-cep-chi.vercel.app/).
+## 🌐 Projeto em Produção
 
-## 📚 Mais informações
+Você pode visualizar a versão em produção do projeto neste [link](https://buscador-cep-chi.vercel.app/).
 
-Entre em contato pelo [linkedin](https://www.linkedin.com/in/grazziano-fagundes/).
+## 🖼️ Imagens da Aplicação
 
 <div align="center">
-  <small>Grazziano Borges Fagundes - 2023</small>
+  <img src="./docs/assets/tela_01.png" width="400" height="auto" alt="Tela inicial da aplicação">
+  <img src="./docs/assets/tela_02.png" width="400" height="auto" alt="Resultado da busca por CEP">
+</div>
+
+## 📚 Contato
+
+Para mais informações ou perguntas, sinta-se à vontade para me contatar via [LinkedIn](https://www.linkedin.com/in/grazziano-fagundes/).
+
+---
+
+<div align="center">
+  <small>Desenvolvido por Grazziano Borges Fagundes - 2024</small>
 </div>
